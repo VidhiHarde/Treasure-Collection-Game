@@ -106,8 +106,8 @@ function createCash() {
   var cash = createSprite(Math.round(random(50, width-50),40, 10, 10));
   cash.addImage(cashImg);
   cash.scale=0.12;
-  cash.velocityY = 3;
-  cash.lifetime = 250;
+  cash.velocityY = 5;
+  cash.lifetime = 600;
   cashG.add(cash);
   }
 }
@@ -117,8 +117,8 @@ function createDiamonds() {
   var diamonds = createSprite(Math.round(random(50, width-50),40, 10, 10));
   diamonds.addImage(diamondsImg);
   diamonds.scale=0.03;
-  diamonds.velocityY = 3;
-  diamonds.lifetime = 250;
+  diamonds.velocityY = 5;
+  diamonds.lifetime = 600;
   diamondsG.add(diamonds);
 }
 }
@@ -128,8 +128,8 @@ function createJwellery() {
   var jwellery = createSprite(Math.round(random(50, width-50),40, 10, 10));
   jwellery.addImage(jwelleryImg);
   jwellery.scale=0.13;
-  jwellery.velocityY = 3;
-  jwellery.lifetime = 250;
+  jwellery.velocityY = 5;
+  jwellery.lifetime = 600;
   jwelleryG.add(jwellery);
   }
 }
@@ -139,8 +139,8 @@ function createSword(){
   var sword = createSprite(Math.round(random(50, width-50),40, 10, 10));
   sword.addImage(swordImg);
   sword.scale=0.1;
-  sword.velocityY = 3;
-  sword.lifetime = 250;
+  sword.velocityY = 7;
+  sword.lifetime = 600;
   swordGroup.add(sword);
   }
 }
